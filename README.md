@@ -1,23 +1,23 @@
-# 📝 Task Manager App (MERN Stack)
+#  Task Manager App (MERN Stack)
 
 A full-featured Task Management System built using the MERN Stack (MongoDB, Express, React, Node.js). This application supports role-based task creation, assignment, tracking, and completion for Admins and Users.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 👤 **Authentication**
+###  **Authentication**
 - Register / Login with JWT
 - Role-based access (Admin & User)
 
-### 📋 **Admin Features**
+###  **Admin Features**
 - Dashboard with task status summary
 - Create new tasks
 - Assign tasks to users by email
 - Edit or delete existing tasks
 - Filter tasks by status (All, Pending, In Progress, Completed)
 
-### 👥 **User Features**
+### **User Features**
 - View assigned tasks
 - Mark tasks as `In Progress` or `Completed`
 - Status counts for quick overview
@@ -44,7 +44,7 @@ A full-featured Task Management System built using the MERN Stack (MongoDB, Expr
 
 ---
 
-## 🗂️ Folder Structure
+## Folder Structure
 TASK-MANAGER/
 ├── backend/
 │ ├── config/
@@ -69,5 +69,10 @@ TASK-MANAGER/
 │
 ├── .gitignore
 ├── README.md
+
+## Admin Dashboard
+![image](https://github.com/user-attachments/assets/1e980a53-6a4d-4304-9634-8a875d0d7956)
+![image](https://github.com/user-attachments/assets/50f683d6-791c-4388-9f84-f4c883621435)
+
 
 
