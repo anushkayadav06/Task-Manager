@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.input-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 14px;
+  color: black;
+  background-color: rgba(241, 245, 249, 0.5); /* Tailwind's bg-slate-100/50 equivalent */
+  padding: 8px 12px;
+  border-radius: 6px;
+}

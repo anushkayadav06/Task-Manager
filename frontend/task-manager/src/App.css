@@ -1,0 +1,13 @@
+.menu-button {
+  background-color: white;
+  color: #0d6efd; /* Bootstrap primary */
+  border:none;
+  transition: background-color 0.3s;
+}
+
+.menu-button:hover
+.menu-button:focus {
+  background-color: #e0f0ff; /* Light blue */
+  color: #0d6efd;
+  outline:none;
+}
