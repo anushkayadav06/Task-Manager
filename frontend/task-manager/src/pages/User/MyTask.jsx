@@ -90,7 +90,7 @@ const MyTask = () => {
                         createdAt={item.createdAt}
                         dueDate={item.dueDate}
                         createdBy={item.createdBy || {}}
-                        handleMarkCompleted={() => markTaskAsCompleted(item._id)}
+                        handleMarkCompleted={() => updateTaskStatus(item._id, "Completed")}
                         handleMarkInProgress={() => updateTaskStatus(item._id, "In Progress")}
 
                     />
